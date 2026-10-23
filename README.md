@@ -9,7 +9,7 @@ In the AI era, more individuals and organizations are building their own office 
 ## Contents
 
 - [Office Suites & Collaborative Workspaces](#office-suites--collaborative-workspaces)
-- [Spreadsheets, Grids & Data Tables](#spreadsheets-grids--data-tables)
+- [Spreadsheet Engines & Excel I/O](#spreadsheet-engines--excel-io)
 - [Document Format SDKs & Libraries](#document-format-sdks--libraries)
   - [.NET (incl. Open XML SDK)](#net-incl-open-xml-sdk)
   - [Java](#java)
@@ -19,20 +19,19 @@ In the AI era, more individuals and organizations are building their own office 
 - [Document Conversion & Processing](#document-conversion--processing)
 - [AI Document Intelligence](#ai-document-intelligence)
 - [Legacy / Office 2003 Era Formats](#legacy--office-2003-era-formats)
-- [AI Agent Skills & MCP Servers](#ai-agent-skills--mcp-servers)
 - [Standards & Specifications](#standards--specifications)
 - [Related Awesome Lists](#related-awesome-lists)
+- [AI Agent Skills & MCP Servers](#ai-agent-skills--mcp-servers)
 
 ---
 
-### Office Suites & Collaborative Workspaces
+## Office Suites & Collaborative Workspaces
 
 Full-blown office suites, online editors, and collaborative workspaces.
 
 - [wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust `⭐ 15.6k`
 - [TTWriter](https://github.com/matou1118/TTWriter) - Chinese edition of WordCraft: full upstream Rust source plus a GB-standard typesetting layer for official documents, theses and legal paperwork `⭐ 1`
 - [wordcraft-android (kanaaka)](https://github.com/kanaaka/wordcraft-android) - Unofficial Android port of WordCraft (arm64-v8a APK) `⭐ 6`
-- [wordcraft-android (galiehneh)](https://github.com/galiehneh/wordcraft-android) - 100% offline WordCraft-based word processor for Android, built with Rust `⭐ 0`
 - [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides editors with a built-in AI agent `⭐ 10.5k`
 - [cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source. `⭐ 8.0k`
 - [DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations `⭐ 7.0k`
@@ -43,7 +42,6 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [opencraft-ide](https://github.com/visoire/opencraft-ide) - Local-first IDE running WordCraft, GridCraft, DeckCraft and PdfCraft as WebAssembly panels `⭐ 1`
 - [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
-- [vue-office](https://github.com/501351981/vue-office) - Vue component collection to preview Word (.docx), Excel (.xlsx/.xls) and PowerPoint (.pptx) files `⭐ 5.7k`
 - [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint) `⭐ 616`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
 - [Apache OpenOffice](https://github.com/apache/openoffice) - The original open-source office suite, descendant of StarOffice (development on Apache) `⭐ 1.3k`
@@ -51,17 +49,16 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [Gnumeric](https://github.com/GNOME/gnumeric) - The GNOME spreadsheet application, known for its calculation accuracy `⭐ 104`
 - [Calligra](https://github.com/KDE/calligra) - Office and graphic art suite by KDE (successor of KOffice) `⭐ 210`
 
-
-### Spreadsheets, Grids & Data Tables
+## Spreadsheet Engines & Excel I/O
 
 Spreadsheet engines that read and write real Excel files.
 
-- [univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides in one runtime `⭐ 22.7k`
-- [Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet upgraded to Univer `⭐ 16.6k`
+- [univer](https://github.com/dream-num/univer) - Office runtime for AI Agents — Spreadsheets, Docs, Slides in one runtime (core OSS; `.xlsx` import/export is a closed-source Pro plugin) `⭐ 22.7k`
+- [Luckysheet](https://github.com/dream-num/Luckysheet) - Legacy JavaScript spreadsheet, succeeded by Univer (archived) `⭐ 16.6k`
 - [IronCalc](https://github.com/ironcalc/IronCalc) - Main engine of the IronCalc ecosystem `⭐ 4.2k`
 - [Grist](https://github.com/gristlabs/grist-core) - Modern relational spreadsheet, the evolution of spreadsheets `⭐ 12.0k`
 
-
+## Document Format SDKs & Libraries
 
 ### .NET (incl. Open XML SDK)
 
@@ -89,6 +86,7 @@ The Java ecosystem for Microsoft documents.
 
 Python libraries for Office formats, including OLE2/Office 97-2003 parsing.
 
+- [xlwings](https://github.com/xlwings/xlwings) - Python↔Excel automation and direct .xlsx read/write without Excel installed `⭐ 3.4k`
 - [python-docx](https://github.com/python-openxml/python-docx) - Create and modify Word documents with Python `⭐ 5.7k`
 - [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - A Python module for creating Excel XLSX files. `⭐ 4.0k`
 - [python-pptx](https://github.com/scanny/python-pptx) - Create Open XML PowerPoint documents in Python `⭐ 3.6k`
@@ -101,13 +99,17 @@ Python libraries for Office formats, including OLE2/Office 97-2003 parsing.
 
 Generate, parse, and render Office documents in the browser or Node.js.
 
-- [sheet.js](https://github.com/SheetJS/sheetjs) - SheetJS Spreadsheet Data Toolkit (moved to SheetJS/sheetjs) `⭐ 36.3k`
+- [SheetJS](https://github.com/SheetJS/sheetjs) - The Spreadsheet Data Toolkit: read, edit and export XLSX/XLS/CSV `⭐ 36.3k`
 - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager `⭐ 15.5k`
 - [mammoth.js](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML `⭐ 6.3k`
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) - Build PowerPoint presentations with JavaScript. Works with Node, React, web browsers, and more. `⭐ 6.3k`
 - [docx](https://github.com/dolanmiu/docx) - Easily generate and modify .docx files with JS/TS with a nice declarative API. Works on Node.js and in the browser `⭐ 6.0k`
 - [docxtemplater](https://github.com/open-xml-templating/docxtemplater) - Generate docx/pptx/xlsx from templates in Node.js or the browser `⭐ 3.6k`
 - [docx-preview](https://github.com/VolodymyrBaydalka/docxjs) - Render .docx documents in the browser (npm: docx-preview) `⭐ 2.1k`
+- [carbone](https://github.com/carboneio/carbone) - Generate DOCX/XLSX/PPTX reports by injecting JSON into real OOXML templates (source-available license) `⭐ 2.1k`
+- [docx-templates](https://github.com/guigrpa/docx-templates) - Fill real .docx templates with embedded JavaScript commands, Node and browser `⭐ 1.1k`
+- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Parse and generate .xlsx in JS, preserving existing workbook styles `⭐ 1.0k`
+- [vue-office](https://github.com/501351981/vue-office) - Vue component collection to preview Word (.docx), Excel (.xlsx/.xls) and PowerPoint (.pptx) files `⭐ 5.7k`
 
 ### Go / PHP / Rust / C & Others
 
@@ -116,18 +118,19 @@ Office format libraries across Go, PHP, Rust, C/C++, Swift, and more.
 - [excelize](https://github.com/qax-os/excelize) - Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets `⭐ 21.0k`
 - [phpspreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) - A pure PHP library for reading and writing spreadsheet files `⭐ 14.0k`
 - [phpword](https://github.com/PHPOffice/PHPWord) - A pure PHP library for reading and writing word processing documents `⭐ 7.6k`
-- [xlsx](https://github.com/tealeg/xlsx) - Go library for reading and writing XLSX files. `⭐ 6.0k`
+- [xlsx (tealeg)](https://github.com/tealeg/xlsx) - Go library for reading and writing XLSX files (archived; use [excelize](https://github.com/qax-os/excelize)) `⭐ 6.0k`
 - [calamine](https://github.com/tafia/calamine) - A pure Rust Excel (xlsx/xls) file reader: rust on metal sheets `⭐ 2.5k`
 - [hucre](https://github.com/productdevbook/hucre) - Zero-dependency pure-Rust spreadsheet engine, read & write XLSX `⭐ 2.2k`
+- [rust_xlsxwriter](https://github.com/jmcnamara/rust_xlsxwriter) - Rust .xlsx writer with charts, formatting and formulas (by the XlsxWriter author) `⭐ 595`
+- [umya-spreadsheet](https://github.com/mathnya/umya-spreadsheet) - Pure-Rust read/modify/write of .xlsx including styles and comments `⭐ 489`
 - [QXlsx](https://github.com/QtExcel/QXlsx) - Excel .xlsx reader/writer for Qt/C++ (descendant of QtXlsxWriter) `⭐ 1.5k`
 - [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - C library for writing Excel XLSX files `⭐ 1.8k`
 - [CoreXLSX](https://github.com/CoreOffice/CoreXLSX) - Excel XLSX format parser in pure Swift `⭐ 906`
-- [libxls](https://github.com/libxls/libxls) - Read legacy binary Excel (.xls) files from C/C++ `⭐ 539`
 - [phppresentation](https://github.com/PHPOffice/PHPPresentation) - A pure PHP library for reading and writing presentations documents `⭐ 1.4k`
 - [spout](https://github.com/box/spout) - Fast, scalable PHP reader/writer for XLSX and CSV (archived) `⭐ 4.2k`
 - [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) - PHP C extension for fast XLSX reading and writing `⭐ 2.4k`
 
-### Document Conversion & Processing
+## Document Conversion & Processing
 
 Convert and process office documents between formats.
 
@@ -136,8 +139,7 @@ Convert and process office documents between formats.
 - [textract](https://github.com/deanmalmgren/textract) - extract text from any document. no muss. no fuss. `⭐ 4.7k`
 - [unoserver](https://github.com/unoconv/unoserver) - LibreOffice-based document conversion service successor of unoconv `⭐ 943`
 
-
-### AI Document Intelligence
+## AI Document Intelligence
 
 AI-era tools that turn office documents into structured, LLM-ready data.
 
@@ -146,14 +148,13 @@ AI-era tools that turn office documents into structured, LLM-ready data.
 - [docling](https://github.com/docling-project/docling) - Get your documents ready for gen AI `⭐ 69.4k`
 - [unstructured](https://github.com/Unstructured-IO/unstructured) - Open-source ETL for turning documents into structured data for LLMs `⭐ 15.6k`
 
-
 ## Legacy / Office 2003 Era Formats
 
 Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound File) — all directly Word/Excel/PowerPoint related:
 
 - [Apache POI](https://github.com/apache/poi) - The Java API for Microsoft Documents, including the HWPF/HSSF/XSSF families for 97-2003 binary formats `⭐ 2.3k`
 - [olefile](https://github.com/decalage2/olefile) - Parse, read and write Microsoft OLE2 (Compound File Binary) files such as Office 97-2003 documents `⭐ 274`
-- [openmcdf](https://github.com/ironfede/openmcdf) - Microsoft Compound File Binary (COM Structured Storage) .NET library `⭐ 392`
+- [openmcdf](https://github.com/openmcdf/openmcdf) - Microsoft Compound File Binary (COM Structured Storage) .NET library `⭐ 392`
 - [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader) - Lightweight and fast C# reader for legacy .xls and .xlsx files `⭐ 4.4k`
 - [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from legacy Excel .xls files `⭐ 2.2k`
 - [libxls](https://github.com/libxls/libxls) - C/C++ library for reading legacy binary Excel (.xls) files `⭐ 539`
@@ -176,13 +177,11 @@ Official specifications of the document formats that all these projects implemen
 
 ## Related Awesome Lists
 
-Other curated lists in nearby territory:
+Other curated lists in nearby territory. *(Meta-lists by nature are exempt from the Word/Excel/PPT I/O criterion — they are pointers, not office tools.)*:
 
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The mother of all awesome lists `⭐ 523.2k`
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hostable free software, including many office/collaboration tools `⭐ 329.4k`
-- [awesome-document-understanding](https://github.com/tstanislawek/awesome-document-understanding) - Resources for Document Understanding and DocAI `⭐ 1.5k`
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The curated list of MCP servers (has an office/document section) `⭐ 96.8k`
-- [awesome-grid](https://github.com/FancyGrid/awesome-grid) - Curated list of grid/table libraries `⭐ 1.6k`
 
 ## AI Agent Skills & MCP Servers
 
@@ -193,15 +192,14 @@ Tools that let AI agents (Claude, ChatGPT, Codex, Cursor...) create and edit off
 Reusable skill packages that teach agents how to handle office document formats:
 
 - [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic Agent Skills repo, including the `docx`, `pptx` and `xlsx` document skills `⭐ 183.1k`
-- [artcraft-skills](https://github.com/midasmatterhorn/artcraft-skills) - Agent skills (SKILL.md) for the ArtCraft Rust creative suite around WordCraft & sibling tools `⭐ 32`
 
 ### MCP Servers
 
 Model Context Protocol servers that create and edit real Office files:
 
 - [excel-mcp-server (haris-musa)](https://github.com/haris-musa/excel-mcp-server) - Let AI agents create and edit Excel files with formulas, formatting and charts `⭐ 4.3k`
-- [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) - MCP server for creating, reading and manipulating Word documents `⭐ 2.1k`
-- [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation `⭐ 1.9k`
+- [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) - MCP server for creating, reading and manipulating Word documents (archived) `⭐ 2.1k`
+- [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation (archived) `⭐ 1.9k`
 - [excel-mcp-server (negokaz)](https://github.com/negokaz/excel-mcp-server) - MCP server that reads and writes MS Excel data with formula support `⭐ 1.0k`
 - [MinerU-Document-Explorer](https://github.com/opendatalab/MinerU-Document-Explorer) - Agent-native knowledge engine with MCP tools for document indexing `⭐ 643`
 - [wordcraft-mcp-server](https://github.com/jhonsu01/wordcraft-mcp-server) - MCP server for WordCraft: write, edit, mail-merge, convert and preview .docx `⭐ 0`
@@ -217,7 +215,7 @@ Model Context Protocol servers that create and edit real Office files:
 Contributions are welcome! Please open a PR to add projects. Criteria:
 
 1. Open source (permissive or copyleft license)
-2. Actively maintained or historically significant
+2. Actively maintained or historically significant (tiny new derivatives of already-listed projects — e.g. forks/ports with no independent track record — are best gathered under the parent project's entry)
 3. Must read and/or write real office document formats (Word, Excel, PowerPoint — Open XML, legacy binary, OLE2) — grid/widget-only projects without office format I/O are out of scope
 
 ## License
