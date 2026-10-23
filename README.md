@@ -39,6 +39,7 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
 - [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
+- [vue-office](https://github.com/501351981/vue-office) - Vue component collection to preview Word (.docx), Excel (.xlsx/.xls) and PowerPoint (.pptx) files `⭐ 5.7k`
 - [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint) `⭐ 616`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
 - [Apache OpenOffice](https://github.com/apache/openoffice) - The original open-source office suite, descendant of StarOffice (development on Apache) `⭐ 1.3k`
@@ -102,7 +103,7 @@ Generate, parse, and render Office documents in the browser or Node.js.
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) - Build PowerPoint presentations with JavaScript. Works with Node, React, web browsers, and more. `⭐ 6.3k`
 - [docx](https://github.com/dolanmiu/docx) - Easily generate and modify .docx files with JS/TS with a nice declarative API. Works on Node.js and in the browser `⭐ 6.0k`
 - [docxtemplater](https://github.com/open-xml-templating/docxtemplater) - Generate docx/pptx/xlsx from templates in Node.js or the browser `⭐ 3.6k`
-- [docxjs](https://github.com/VolodymyrBaydalka/docxjs) - Docx rendering library `⭐ 2.1k`
+- [docx-preview](https://github.com/VolodymyrBaydalka/docxjs) - Render .docx documents in the browser (npm: docx-preview) `⭐ 2.1k`
 
 ### Go / PHP / Rust / C & Others
 
