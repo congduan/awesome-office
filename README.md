@@ -23,6 +23,7 @@ In the AI era, more individuals and organizations are building their own office 
 - [PDF Tools & Libraries](#pdf-tools--libraries)
 - [AI Document Intelligence](#ai-document-intelligence)
 - [Legacy / Office 2003 Era Formats](#legacy--office-2003-era-formats)
+- [AI Agent Skills & MCP Servers](#ai-agent-skills--mcp-servers)
 - [Standards & Specifications](#standards--specifications)
 - [Related Awesome Lists](#related-awesome-lists)
 
@@ -48,6 +49,7 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
 - [edentext](https://github.com/stffnb/edentext) - Powerful web-based Word Processor for docx and odt.  Web-based word processor for docx and odt, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
+- [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint, PDF, Markdown) `⭐ 616`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
 - [Apache OpenOffice](https://github.com/apache/openoffice) - The original open-source office suite, descendant of StarOffice (development on Apache) `⭐ 1.3k`
 - [AbiWord](https://github.com/AbiWord/abiword) - Veteran lightweight word processor from GNOME's early days (official read-only mirror) `⭐ 178`
@@ -217,6 +219,34 @@ Other curated lists in nearby territory:
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hostable free software, including many office/collaboration tools `⭐ 329.4k`
 - [awesome-document-understanding](https://github.com/tstanislawek/awesome-document-understanding) - Resources for Document Understanding and DocAI `⭐ 1.5k`
 - [awesome-grid](https://github.com/FancyGrid/awesome-grid) - Curated list of grid/table libraries `⭐ 1.6k`
+
+## AI Agent Skills & MCP Servers
+
+Tools that let AI agents (Claude, ChatGPT, Codex, Cursor...) create and edit office documents.
+
+### Agent Skills
+
+Reusable skill packages that teach agents how to handle office document formats:
+
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic Agent Skills repo, including the `docx`, `pptx`, `xlsx` and `pdf` document skills `⭐ 183.1k`
+
+### MCP Servers
+
+Model Context Protocol servers for office document manipulation:
+
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference servers `⭐ 91.5k`
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The curated list of MCP servers (see its Office/document section) `⭐ 96.8k`
+- [excel-mcp-server (haris-musa)](https://github.com/haris-musa/excel-mcp-server) - Let AI agents create and edit Excel files with formulas, formatting and charts `⭐ 4.3k`
+- [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) - MCP server for creating, reading and manipulating Word documents `⭐ 2.1k`
+- [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation `⭐ 1.9k`
+- [excel-mcp-server (negokaz)](https://github.com/negokaz/excel-mcp-server) - MCP server that reads and writes MS Excel data with formula support `⭐ 1.0k`
+- [MinerU-Document-Explorer](https://github.com/opendatalab/MinerU-Document-Explorer) - Agent-native knowledge engine with MCP tools for document indexing `⭐ 643`
+
+### Agent-Native Document Tools
+
+- [xberg](https://github.com/xberg-io/xberg) - Polyglot document intelligence with a Rust core: text/metadata extraction for agents `⭐ 9.4k`
+- [kordoc](https://github.com/chrisryugj/kordoc) - Parse HWP/HWPX/PDF/Office documents to Markdown; CLI + MCP server `⭐ 2.7k`
+- [anymd](https://github.com/SylphxAI/anymd) - Any file (PDF, Word, PowerPoint, Excel) to clean Markdown for AI agents `⭐ 1.1k`
 
 ## Contributing
 
