@@ -1,6 +1,6 @@
 # Awesome Office [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome open-source projects for office software: full office suites, document/spreadsheet/presentation SDKs, legacy Office 97-2003 format tools, converters, and AI-powered document intelligence. **Inclusion criterion: projects must read and/or write real office document formats (.docx, .xlsx, .pptx, .odt/.ods/.odp, legacy .doc/.xls, OLE2, PDF). Projects that only handle proprietary or plain-web formats are not included.**
+A curated list of awesome open-source projects for Microsoft Office-compatible software: Word/Excel/PowerPoint suites, format SDKs (.docx/.xlsx/.pptx and legacy .doc/.xls), converters, and AI-powered document intelligence. **Inclusion criterion: projects must read and/or write Microsoft Office document formats — Word (.doc/.docx), Excel (.xls/.xlsx) or PowerPoint (.ppt/.pptx), including the OLE2 compound files that carry them. Projects limited to other formats (ODF-only, whiteboards, rich-text editors, grids, PDF-only) are not included.**
 
 In the AI era, more individuals and organizations are building their own office software. This list collects the best open-source building blocks — from the classic [LibreOffice](https://www.libreoffice.org/) and [ONLYOFFICE](https://github.com/ONLYOFFICE/DocumentServer) to modern AI-native suites and the libraries that read and write `.docx`, `.xlsx`, `.pptx`, and legacy binary formats.
 
@@ -17,7 +17,6 @@ In the AI era, more individuals and organizations are building their own office 
   - [JavaScript / TypeScript](#javascript--typescript)
   - [Go / PHP / Rust](#go--php--rust)
 - [Document Conversion & Processing](#document-conversion--processing)
-- [PDF Tools & Libraries](#pdf-tools--libraries)
 - [AI Document Intelligence](#ai-document-intelligence)
 - [Legacy / Office 2003 Era Formats](#legacy--office-2003-era-formats)
 - [AI Agent Skills & MCP Servers](#ai-agent-skills--mcp-servers)
@@ -31,16 +30,16 @@ In the AI era, more individuals and organizations are building their own office 
 Full-blown office suites, online editors, and collaborative workspaces.
 
 - [wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust `⭐ 15.6k`
-- [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides, PDF editors with a built-in AI agent `⭐ 10.5k`
+- [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides editors with a built-in AI agent `⭐ 10.5k`
 - [cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source. `⭐ 8.0k`
 - [DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations `⭐ 7.0k`
 - [core](https://github.com/LibreOffice/core) - The LibreOffice core repository (development happens on Gerrit) `⭐ 4.6k`
 - [online](https://github.com/CollaboraOnline/online) - Issue tracker only. Active development is on Gerrit at https://gerrit.collaboraoffice.com/. `⭐ 3.4k`
 - [docx-editor](https://github.com/superdoc/docx-editor) - SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK) `⭐ 1.1k`
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
-- [edentext](https://github.com/stffnb/edentext) - Powerful web-based Word Processor for docx and odt.  Web-based word processor for docx and odt, private by design `⭐ 550`
+- [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
-- [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint, PDF, Markdown) `⭐ 616`
+- [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint) `⭐ 616`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
 - [Apache OpenOffice](https://github.com/apache/openoffice) - The original open-source office suite, descendant of StarOffice (development on Apache) `⭐ 1.3k`
 - [AbiWord](https://github.com/AbiWord/abiword) - Veteran lightweight word processor from GNOME's early days (official read-only mirror) `⭐ 178`
@@ -52,7 +51,7 @@ Full-blown office suites, online editors, and collaborative workspaces.
 
 Spreadsheet engines that read and write real Excel files.
 
-- [univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one ru `⭐ 22.7k`
+- [univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides in one runtime `⭐ 22.7k`
 - [Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet upgraded to Univer `⭐ 16.6k`
 - [IronCalc](https://github.com/ironcalc/IronCalc) - Main engine of the IronCalc ecosystem `⭐ 4.2k`
 - [Grist](https://github.com/gristlabs/grist-core) - Modern relational spreadsheet, the evolution of spreadsheets `⭐ 12.0k`
@@ -87,7 +86,7 @@ Python libraries for Office formats, including OLE2/Office 97-2003 parsing.
 - [XlsxWriter](https://github.com/jmcnamara/XlsxWriter) - A Python module for creating Excel XLSX files. `⭐ 4.0k`
 - [python-pptx](https://github.com/scanny/python-pptx) - Create Open XML PowerPoint documents in Python `⭐ 3.6k`
 - [python-docx-template](https://github.com/elapouya/python-docx-template) - Use a docx as a jinja2 template `⭐ 2.7k`
-- [pyexcel](https://github.com/pyexcel/pyexcel) - One API for csv, ods, xls, xlsx and xlsm files `⭐ 1.3k`
+- [pyexcel](https://github.com/pyexcel/pyexcel) - One API for reading and writing xls, xlsx, xlsm and csv files `⭐ 1.3k`
 - [olefile](https://github.com/decalage2/olefile) - Parse, read and write Microsoft OLE2 files (Structured Storage / Compound File Binary) `⭐ 274`
 - [openpyxl](https://foss.heptapod.net/openpyxl/openpyxl) - A Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files (developed on GitLab/Heptapod)
 
@@ -99,7 +98,7 @@ Generate, parse, and render Office documents in the browser or Node.js.
 - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager `⭐ 15.5k`
 - [mammoth.js](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML `⭐ 6.3k`
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) - Build PowerPoint presentations with JavaScript. Works with Node, React, web browsers, and more. `⭐ 6.3k`
-- [docx](https://github.com/dolanmiu/docx) - Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Br `⭐ 6.0k`
+- [docx](https://github.com/dolanmiu/docx) - Easily generate and modify .docx files with JS/TS with a nice declarative API. Works on Node.js and in the browser `⭐ 6.0k`
 - [docxtemplater](https://github.com/open-xml-templating/docxtemplater) - Generate docx/pptx/xlsx from templates in Node.js or the browser `⭐ 3.6k`
 - [docxjs](https://github.com/VolodymyrBaydalka/docxjs) - Docx rendering library `⭐ 2.1k`
 
@@ -111,44 +110,32 @@ Office format libraries across Go, PHP, and Rust.
 - [phpspreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) - A pure PHP library for reading and writing spreadsheet files `⭐ 14.0k`
 - [phpword](https://github.com/PHPOffice/PHPWord) - A pure PHP library for reading and writing word processing documents `⭐ 7.6k`
 - [xlsx](https://github.com/tealeg/xlsx) - Go library for reading and writing XLSX files. `⭐ 6.0k`
-- [calamine](https://github.com/tafia/calamine) - A pure Rust Excel/OpenDocument SpreadSheets file reader: rust on metal sheets `⭐ 2.5k`
+- [calamine](https://github.com/tafia/calamine) - A pure Rust Excel (xlsx/xls) file reader: rust on metal sheets `⭐ 2.5k`
 - [phppresentation](https://github.com/PHPOffice/PHPPresentation) - A pure PHP library for reading and writing presentations documents `⭐ 1.4k`
 
 ### Document Conversion & Processing
 
-Convert and process documents between formats.
+Convert and process office documents between formats.
 
-- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere `⭐ 94.8k`
 - [pandoc](https://github.com/jgm/pandoc) - Universal markup converter `⭐ 46.7k`
 - [gotenberg](https://github.com/gotenberg/gotenberg) - A developer-friendly API for converting many document formats into PDF files, and more! `⭐ 13.4k`
 - [textract](https://github.com/deanmalmgren/textract) - extract text from any document. no muss. no fuss. `⭐ 4.7k`
-- [unoserver](https://github.com/unoconv/unoserver) - LibreOffice-based document conversion service (successor of unoconv) `⭐ 943`
+- [unoserver](https://github.com/unoconv/unoserver) - LibreOffice-based document conversion service successor of unoconv `⭐ 943`
 
-### PDF Tools & Libraries
-
-PDF viewers, parsers, and manipulators.
-
-- [pdf.js](https://github.com/mozilla/pdf.js) - PDF Reader in JavaScript `⭐ 54.0k`
-- [pdfplumber](https://github.com/jsvine/pdfplumber) - Extract text, tables and metadata from PDFs with detailed layout info `⭐ 10.8k`
-- [pypdf](https://github.com/py-pdf/pypdf) - A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files `⭐ 10.3k`
-- [pdfarranger](https://github.com/pdfarranger/pdfarranger) - GTK app to merge, split, rotate and crop PDF documents `⭐ 6.0k`
-- [pdfbox](https://github.com/apache/pdfbox) - Mirror of Apache PDFBox `⭐ 3.1k`
 
 ### AI Document Intelligence
 
-AI-era tools that turn office documents and PDFs into structured, LLM-ready data.
+AI-era tools that turn office documents into structured, LLM-ready data.
 
 - [markitdown](https://github.com/microsoft/markitdown) - Python tool for converting files and office documents to Markdown. `⭐ 191.7k`
-- [MinerU](https://github.com/opendatalab/MinerU) - Transforms PDFs and Office docs into LLM-ready markdown/JSON `⭐ 82.3k`
+- [MinerU](https://github.com/opendatalab/MinerU) - Transforms Office docs into LLM-ready markdown/JSON `⭐ 82.3k`
 - [docling](https://github.com/docling-project/docling) - Get your documents ready for gen AI `⭐ 69.4k`
-- [marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy `⭐ 40.6k`
-- [olmocr](https://github.com/allenai/olmocr) - Toolkit for linearizing PDFs for LLM datasets/training `⭐ 19.8k`
 - [unstructured](https://github.com/Unstructured-IO/unstructured) - Open-source ETL for turning documents into structured data for LLMs `⭐ 15.6k`
 
 
 ## Legacy / Office 2003 Era Formats
 
-Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound File):
+Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound File) — all directly Word/Excel/PowerPoint related:
 
 - [Apache POI](https://github.com/apache/poi) - The Java API for Microsoft Documents, including the HWPF/HSSF/XSSF families for 97-2003 binary formats `⭐ 2.3k`
 - [olefile](https://github.com/decalage2/olefile) - Parse, read and write Microsoft OLE2 (Compound File Binary) files such as Office 97-2003 documents `⭐ 274`
@@ -158,9 +145,7 @@ Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound F
 - [jitOffice/doc2docx](https://github.com/jitOffice/doc2docx) - Convert Word 97-2003 binary .doc to OOXML .docx with zero host dependencies
 - [catdoc](https://github.com/petewarden/catdoc) - Classic command-line converter for extracting text from MS Word .doc files `⭐ 89`
 - [antiword](https://github.com/grobian/antiword) - Free MS Word 97-2003 .doc reader, a Unix classic since 1998 `⭐ 82`
-- [libstaroffice](https://github.com/fosnola/libstaroffice) - Import filter for all StarOffice/LibreOffice legacy documents (the engine behind LibreOffice's .sdc/.sdd/.smf support)
 - [wvWare](https://github.com/remram44/wvware) - Library for converting Word 97-2003 .doc to HTML (unofficial mirror of the SourceForge project)
-- [OpenDocument.droid](https://github.com/opendocument-app/OpenDocument.droid) - Android's first OpenDocument / OpenOffice reader `⭐ 480`
 
 ## Standards & Specifications
 
@@ -168,7 +153,6 @@ Official specifications of the document formats that all these projects implemen
 
 - [OOXML (ECMA-376 / ISO 29500)](https://ecma-international.org/publications-and-standards/standards/ecma-376/) - Office Open XML File Formats: the official spec behind .docx, .xlsx and .pptx (free download from ECMA)
 - [ISO/IEC 29500 Transitional & Strict](https://www.iso.org/standard/71691.html) - The ISO edition of the OOXML standard
-- [Open Document Format (ODF 1.3, ISO 26300)](https://docs.oasis-open.org/office/OpenDocument/v1.3/) - The OASIS standard for .odt/.ods/.odp documents
 - [MS-OFFCRYPTO](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-offcrypto/) - Microsoft's specification of Office binary file (transitional) encryption
 - [MS-DOC / MS-XLS / MS-PPT](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-doc/) - Microsoft's documented specifications of the legacy Word 97-2003 (.doc), Excel (.xls) and PowerPoint (.ppt) binary formats
 - [Compound File Binary Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/) - MS-CFB: the OLE2 / Structured Storage container used by all Office 97-2003 files
@@ -192,7 +176,7 @@ Tools that let AI agents (Claude, ChatGPT, Codex, Cursor...) create and edit off
 
 Reusable skill packages that teach agents how to handle office document formats:
 
-- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic Agent Skills repo, including the `docx`, `pptx`, `xlsx` and `pdf` document skills `⭐ 183.1k`
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic Agent Skills repo, including the `docx`, `pptx` and `xlsx` document skills `⭐ 183.1k`
 
 ### MCP Servers
 
@@ -218,7 +202,7 @@ Contributions are welcome! Please open a PR to add projects. Criteria:
 
 1. Open source (permissive or copyleft license)
 2. Actively maintained or historically significant
-3. Must read and/or write real office document formats (Open XML, ODF, legacy binary, PDF) — grid/widget-only projects without office format I/O are out of scope
+3. Must read and/or write real office document formats (Word, Excel, PowerPoint — Open XML, legacy binary, OLE2) — grid/widget-only projects without office format I/O are out of scope
 
 ## License
 
