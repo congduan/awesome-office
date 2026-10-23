@@ -30,8 +30,8 @@ In the AI era, more individuals and organizations are building their own office 
 Full-blown office suites, online editors, and collaborative workspaces.
 
 - [wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust `⭐ 15.6k`
-- [TTWriter](https://github.com/matou1118/TTWriter) - Chinese edition of WordCraft: full upstream Rust source plus a GB-standard typesetting layer for official documents, theses and legal paperwork `⭐ 1`
-- [wordcraft-android (kanaaka)](https://github.com/kanaaka/wordcraft-android) - Unofficial Android port of WordCraft (arm64-v8a APK) `⭐ 6`
+- [gridcraft](https://github.com/storytold/gridcraft) - Open-source clean-room spreadsheet (Microsoft Excel-style) in pure Rust, by the WordCraft team `⭐ 6.3k`
+- [deckcraft](https://github.com/storytold/deckcraft) - Open-source clean-room reimplementation of Microsoft PowerPoint in pure Rust, by the WordCraft team `⭐ 4.1k`
 - [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides editors with a built-in AI agent `⭐ 10.5k`
 - [cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source. `⭐ 8.0k`
 - [DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations `⭐ 7.0k`
@@ -39,7 +39,6 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [online](https://github.com/CollaboraOnline/online) - Issue tracker only. Active development is on Gerrit at https://gerrit.collaboraoffice.com/. `⭐ 3.4k`
 - [docx-editor](https://github.com/superdoc/docx-editor) - SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK) `⭐ 1.1k`
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
-- [opencraft-ide](https://github.com/visoire/opencraft-ide) - Local-first IDE running WordCraft, GridCraft, DeckCraft and PdfCraft as WebAssembly panels `⭐ 1`
 - [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
 - [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint) `⭐ 616`
@@ -81,6 +80,7 @@ The Java ecosystem for Microsoft documents.
 - [easyexcel](https://github.com/alibaba/easyexcel) - Alibaba's fast Java Excel tool that avoids memory overflow on large files (archived, succeeded by FastExcel) `⭐ 33.6k`
 - [FastExcel (fesod)](https://github.com/apache/fesod) - Apache FastExcel (formerly EasyExcel): process large spreadsheets without memory concerns `⭐ 6.3k`
 - [fastexcel](https://github.com/dhatim/fastexcel) - Generate and read big Excel files quickly `⭐ 912`
+- [poiji](https://github.com/ozlerhakan/poiji) - Convert XLS and XLSX files to Java objects via annotations (Excel to POJO) `⭐ 532`
 
 ### Python
 
@@ -106,6 +106,7 @@ Generate, parse, and render Office documents in the browser or Node.js.
 - [docx](https://github.com/dolanmiu/docx) - Easily generate and modify .docx files with JS/TS with a nice declarative API. Works on Node.js and in the browser `⭐ 6.0k`
 - [docxtemplater](https://github.com/open-xml-templating/docxtemplater) - Generate docx/pptx/xlsx from templates in Node.js or the browser `⭐ 3.6k`
 - [docx-preview](https://github.com/VolodymyrBaydalka/docxjs) - Render .docx documents in the browser (npm: docx-preview) `⭐ 2.1k`
+- [node-xlsx](https://github.com/mgcrea/node-xlsx) - NodeJS Excel (XLSX/XLS) file parser & builder `⭐ 3.0k`
 - [carbone](https://github.com/carboneio/carbone) - Generate DOCX/XLSX/PPTX reports by injecting JSON into real OOXML templates (source-available license) `⭐ 2.1k`
 - [docx-templates](https://github.com/guigrpa/docx-templates) - Fill real .docx templates with embedded JavaScript commands, Node and browser `⭐ 1.1k`
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Parse and generate .xlsx in JS, preserving existing workbook styles `⭐ 1.0k`
@@ -202,7 +203,6 @@ Model Context Protocol servers that create and edit real Office files:
 - [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation (archived) `⭐ 1.9k`
 - [excel-mcp-server (negokaz)](https://github.com/negokaz/excel-mcp-server) - MCP server that reads and writes MS Excel data with formula support `⭐ 1.0k`
 - [MinerU-Document-Explorer](https://github.com/opendatalab/MinerU-Document-Explorer) - Agent-native knowledge engine with MCP tools for document indexing `⭐ 643`
-- [wordcraft-mcp-server](https://github.com/jhonsu01/wordcraft-mcp-server) - MCP server for WordCraft: write, edit, mail-merge, convert and preview .docx `⭐ 0`
 
 ### Agent-Native Document Tools
 
