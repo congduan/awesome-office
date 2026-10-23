@@ -1,6 +1,6 @@
 # Awesome Office [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome open-source projects for office software: full office suites, document/spreadsheet/presentation SDKs, legacy Office 97-2003 format tools, collaborative editors, and AI-powered document intelligence.
+A curated list of awesome open-source projects for office software: full office suites, document/spreadsheet/presentation SDKs, legacy Office 97-2003 format tools, converters, and AI-powered document intelligence. **Inclusion criterion: projects must read and/or write real office document formats (.docx, .xlsx, .pptx, .odt/.ods/.odp, legacy .doc/.xls, OLE2, PDF). Projects that only handle proprietary or plain-web formats are not included.**
 
 In the AI era, more individuals and organizations are building their own office software. This list collects the best open-source building blocks — from the classic [LibreOffice](https://www.libreoffice.org/) and [ONLYOFFICE](https://github.com/ONLYOFFICE/DocumentServer) to modern AI-native suites and the libraries that read and write `.docx`, `.xlsx`, `.pptx`, and legacy binary formats.
 
@@ -9,10 +9,7 @@ In the AI era, more individuals and organizations are building their own office 
 ## Contents
 
 - [Office Suites & Collaborative Workspaces](#office-suites--collaborative-workspaces)
-- [Whiteboards & Diagramming](#whiteboards--diagramming)
 - [Spreadsheets, Grids & Data Tables](#spreadsheets-grids--data-tables)
-- [Rich Text Editors](#rich-text-editors)
-- [Real-time Collaboration Engines](#real-time-collaboration-engines)
 - [Document Format SDKs & Libraries](#document-format-sdks--libraries)
   - [.NET (incl. Open XML SDK)](#net-incl-open-xml-sdk)
   - [Java](#java)
@@ -33,18 +30,12 @@ In the AI era, more individuals and organizations are building their own office 
 
 Full-blown office suites, online editors, and collaborative workspaces.
 
-- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. The leading open-source Notion alternative. `⭐ 77.7k`
-- [AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. A next-gen knowledge base combining docs, whiteboards and databases. `⭐ 73.8k`
-- [siyuan](https://github.com/siyuan-note/siyuan) - Privacy-first, self-hosted knowledge workspace where humans and AI agents work together `⭐ 46.9k`
-- [etherpad-lite](https://github.com/ether/etherpad) - Etherpad: A modern really-real-time collaborative document editor. `⭐ 18.6k`
 - [wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust `⭐ 15.6k`
 - [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides, PDF editors with a built-in AI agent `⭐ 10.5k`
 - [cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source. `⭐ 8.0k`
 - [DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations `⭐ 7.0k`
 - [core](https://github.com/LibreOffice/core) - The LibreOffice core repository (development happens on Gerrit) `⭐ 4.6k`
-- [everything](https://github.com/HeyPuter/everything) - We're rebuilding and open-sourcing the world’s software from scratch. `⭐ 3.6k`
 - [online](https://github.com/CollaboraOnline/online) - Issue tracker only. Active development is on Gerrit at https://gerrit.collaboraoffice.com/. `⭐ 3.4k`
-- [xwiki-platform](https://github.com/xwiki/xwiki-platform) - The XWiki platform `⭐ 1.3k`
 - [docx-editor](https://github.com/superdoc/docx-editor) - SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK) `⭐ 1.1k`
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
 - [edentext](https://github.com/stffnb/edentext) - Powerful web-based Word Processor for docx and odt.  Web-based word processor for docx and odt, private by design `⭐ 550`
@@ -56,44 +47,17 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [Gnumeric](https://github.com/GNOME/gnumeric) - The GNOME spreadsheet application, known for its calculation accuracy `⭐ 104`
 - [Calligra](https://github.com/KDE/calligra) - Office and graphic art suite by KDE (successor of KOffice) `⭐ 210`
 
-### Whiteboards & Diagramming
-
-Visual canvases and diagram editors commonly bundled with office tools.
-
-- [excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams `⭐ 134.4k`
-- [tldraw](https://github.com/tldraw/tldraw) - Infinite canvas SDK for building whiteboard apps in React `⭐ 51.0k`
-- [drawio](https://github.com/jgraph/drawio) - draw.io is a JavaScript, client-side editor for general diagramming. `⭐ 8.9k`
 
 ### Spreadsheets, Grids & Data Tables
 
-Spreadsheet engines and interactive grids for building Excel-like experiences.
+Spreadsheet engines that read and write real Excel files.
 
 - [univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one ru `⭐ 22.7k`
-- [handsontable](https://github.com/handsontable/handsontable) - JavaScript Data Grid / Data Table with a Spreadsheet Look & Feel. JavaScript data grid with a spreadsheet look & feel. `⭐ 22.1k`
 - [Luckysheet](https://github.com/dream-num/Luckysheet) - Luckysheet upgraded to Univer `⭐ 16.6k`
-- [ag-grid](https://github.com/ag-grid/ag-grid) - The best JavaScript Data Table for building Enterprise Applications. The best JavaScript data table for enterprise applications. `⭐ 15.7k`
-- [x-spreadsheet](https://github.com/myliang/x-spreadsheet) - Lightweight Excel-like spreadsheet in JavaScript `⭐ 14.6k`
-- [ce](https://github.com/jspreadsheet/ce) - Lightweight JavaScript data grid with advanced spreadsheet controls `⭐ 7.2k`
 - [IronCalc](https://github.com/ironcalc/IronCalc) - Main engine of the IronCalc ecosystem `⭐ 4.2k`
 - [Grist](https://github.com/gristlabs/grist-core) - Modern relational spreadsheet, the evolution of spreadsheets `⭐ 12.0k`
 
-### Rich Text Editors
 
-Editor frameworks that power document editing UIs.
-
-- [quill](https://github.com/slab/quill) - Quill is a modern WYSIWYG editor built for compatibility and extensibility `⭐ 47.4k`
-- [slate](https://github.com/ianstormtaylor/slate) - A completely customizable framework for building rich text editors. (Currently in beta.) `⭐ 31.7k`
-- [tinymce](https://github.com/tinymce/tinymce) - The world's #1 JavaScript library for rich text editing. Available for React, Vue and Angular `⭐ 16.3k`
-- [ckeditor5](https://github.com/ckeditor/ckeditor5) - Modular rich text editor framework with collaborative editing `⭐ 10.5k`
-- [prosemirror](https://github.com/ProseMirror/prosemirror) - The ProseMirror WYSIWYM editor `⭐ 8.7k`
-
-### Real-time Collaboration Engines
-
-CRDTs and sync frameworks behind collaborative documents.
-
-- [yjs](https://github.com/yjs/yjs) - Shared data types for building collaborative software `⭐ 23.0k`
-- [automerge](https://github.com/automerge/automerge) - A JSON-like CRDT data structure that can be modified concurrently and merged automatically `⭐ 6.7k`
-- [FluidFramework](https://github.com/microsoft/FluidFramework) - Library for building distributed, real-time collaborative web  applications `⭐ 4.9k`
 
 ### .NET (incl. Open XML SDK)
 
@@ -254,7 +218,7 @@ Contributions are welcome! Please open a PR to add projects. Criteria:
 
 1. Open source (permissive or copyleft license)
 2. Actively maintained or historically significant
-3. Clearly related to office/document software
+3. Must read and/or write real office document formats (Open XML, ODF, legacy binary, PDF) — grid/widget-only projects without office format I/O are out of scope
 
 ## License
 
