@@ -30,6 +30,9 @@ In the AI era, more individuals and organizations are building their own office 
 Full-blown office suites, online editors, and collaborative workspaces.
 
 - [wordcraft](https://github.com/storytold/wordcraft) - An open-source, clean-room reimplementation of Microsoft Word in pure Rust `⭐ 15.6k`
+- [TTWriter](https://github.com/matou1118/TTWriter) - Chinese edition of WordCraft: full upstream Rust source plus a GB-standard typesetting layer for official documents, theses and legal paperwork `⭐ 1`
+- [wordcraft-android (kanaaka)](https://github.com/kanaaka/wordcraft-android) - Unofficial Android port of WordCraft (arm64-v8a APK) `⭐ 6`
+- [wordcraft-android (galiehneh)](https://github.com/galiehneh/wordcraft-android) - 100% offline WordCraft-based word processor for Android, built with Rust `⭐ 0`
 - [genoffice](https://github.com/genspark-ai/genoffice) - Free, open-source AI Office suite: Docs, Sheets, Slides editors with a built-in AI agent `⭐ 10.5k`
 - [cryptpad](https://github.com/cryptpad/cryptpad) - Collaborative office suite, end-to-end encrypted and open-source. `⭐ 8.0k`
 - [DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations `⭐ 7.0k`
@@ -37,6 +40,7 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [online](https://github.com/CollaboraOnline/online) - Issue tracker only. Active development is on Gerrit at https://gerrit.collaboraoffice.com/. `⭐ 3.4k`
 - [docx-editor](https://github.com/superdoc/docx-editor) - SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK) `⭐ 1.1k`
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
+- [opencraft-ide](https://github.com/visoire/opencraft-ide) - Local-first IDE running WordCraft, GridCraft, DeckCraft and PdfCraft as WebAssembly panels `⭐ 1`
 - [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
 - [vue-office](https://github.com/501351981/vue-office) - Vue component collection to preview Word (.docx), Excel (.xlsx/.xls) and PowerPoint (.pptx) files `⭐ 5.7k`
@@ -189,6 +193,7 @@ Tools that let AI agents (Claude, ChatGPT, Codex, Cursor...) create and edit off
 Reusable skill packages that teach agents how to handle office document formats:
 
 - [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic Agent Skills repo, including the `docx`, `pptx` and `xlsx` document skills `⭐ 183.1k`
+- [artcraft-skills](https://github.com/midasmatterhorn/artcraft-skills) - Agent skills (SKILL.md) for the ArtCraft Rust creative suite around WordCraft & sibling tools `⭐ 32`
 
 ### MCP Servers
 
@@ -199,6 +204,7 @@ Model Context Protocol servers that create and edit real Office files:
 - [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation `⭐ 1.9k`
 - [excel-mcp-server (negokaz)](https://github.com/negokaz/excel-mcp-server) - MCP server that reads and writes MS Excel data with formula support `⭐ 1.0k`
 - [MinerU-Document-Explorer](https://github.com/opendatalab/MinerU-Document-Explorer) - Agent-native knowledge engine with MCP tools for document indexing `⭐ 643`
+- [wordcraft-mcp-server](https://github.com/jhonsu01/wordcraft-mcp-server) - MCP server for WordCraft: write, edit, mail-merge, convert and preview .docx `⭐ 0`
 
 ### Agent-Native Document Tools
 
