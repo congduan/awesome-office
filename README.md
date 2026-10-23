@@ -22,6 +22,9 @@ In the AI era, more individuals and organizations are building their own office 
 - [Document Conversion & Processing](#document-conversion--processing)
 - [PDF Tools & Libraries](#pdf-tools--libraries)
 - [AI Document Intelligence](#ai-document-intelligence)
+- [Legacy / Office 2003 Era Formats](#legacy--office-2003-era-formats)
+- [Standards & Specifications](#standards--specifications)
+- [Related Awesome Lists](#related-awesome-lists)
 
 ---
 
@@ -46,6 +49,10 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [edentext](https://github.com/stffnb/edentext) - Powerful web-based Word Processor for docx and odt.  Web-based word processor for docx and odt, private by design `⭐ 550`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
+- [Apache OpenOffice](https://github.com/apache/openoffice) - The original open-source office suite, descendant of StarOffice (development on Apache) `⭐ 1.3k`
+- [AbiWord](https://github.com/AbiWord/abiword) - Veteran lightweight word processor from GNOME's early days (official read-only mirror) `⭐ 178`
+- [Gnumeric](https://github.com/GNOME/gnumeric) - The GNOME spreadsheet application, known for its calculation accuracy `⭐ 104`
+- [Calligra](https://github.com/KDE/calligra) - Office and graphic art suite by KDE (successor of KOffice) `⭐ 210`
 
 ### Whiteboards & Diagramming
 
@@ -66,6 +73,7 @@ Spreadsheet engines and interactive grids for building Excel-like experiences.
 - [x-spreadsheet](https://github.com/myliang/x-spreadsheet) - Lightweight Excel-like spreadsheet in JavaScript `⭐ 14.6k`
 - [ce](https://github.com/jspreadsheet/ce) - Lightweight JavaScript data grid with advanced spreadsheet controls `⭐ 7.2k`
 - [IronCalc](https://github.com/ironcalc/IronCalc) - Main engine of the IronCalc ecosystem `⭐ 4.2k`
+- [Grist](https://github.com/gristlabs/grist-core) - Modern relational spreadsheet, the evolution of spreadsheets `⭐ 12.0k`
 
 ### Rich Text Editors
 
@@ -182,6 +190,33 @@ Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound F
 - [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader) - Lightweight and fast C# reader for legacy .xls and .xlsx files `⭐ 4.4k`
 - [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from legacy Excel .xls files `⭐ 2.2k`
 - [jitOffice/doc2docx](https://github.com/jitOffice/doc2docx) - Convert Word 97-2003 binary .doc to OOXML .docx with zero host dependencies
+- [catdoc](https://github.com/petewarden/catdoc) - Classic command-line converter for extracting text from MS Word .doc files `⭐ 89`
+- [antiword](https://github.com/grobian/antiword) - Free MS Word 97-2003 .doc reader, a Unix classic since 1998 `⭐ 82`
+- [libstaroffice](https://github.com/fosnola/libstaroffice) - Import filter for all StarOffice/LibreOffice legacy documents (the engine behind LibreOffice's .sdc/.sdd/.smf support)
+- [wvWare](https://github.com/remram44/wvware) - Library for converting Word 97-2003 .doc to HTML (unofficial mirror of the SourceForge project)
+- [OpenDocument.droid](https://github.com/opendocument-app/OpenDocument.droid) - Android's first OpenDocument / OpenOffice reader `⭐ 480`
+
+## Standards & Specifications
+
+Official specifications of the document formats that all these projects implement:
+
+- [OOXML (ECMA-376 / ISO 29500)](https://ecma-international.org/publications-and-standards/standards/ecma-376/) - Office Open XML File Formats: the official spec behind .docx, .xlsx and .pptx (free download from ECMA)
+- [ISO/IEC 29500 Transitional & Strict](https://www.iso.org/standard/71691.html) - The ISO edition of the OOXML standard
+- [Open Document Format (ODF 1.3, ISO 26300)](https://docs.oasis-open.org/office/OpenDocument/v1.3/) - The OASIS standard for .odt/.ods/.odp documents
+- [MS-OFFCRYPTO](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-offcrypto/) - Microsoft's specification of Office binary file (transitional) encryption
+- [MS-DOC / MS-XLS / MS-PPT](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-doc/) - Microsoft's documented specifications of the legacy Word 97-2003 (.doc), Excel (.xls) and PowerPoint (.ppt) binary formats
+- [Compound File Binary Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-cfb/) - MS-CFB: the OLE2 / Structured Storage container used by all Office 97-2003 files
+- [RTF Spec v1.9.1](https://www.microsoft.com/en-us/download/details.aspx?id=10725) - Rich Text Format specification
+- [OOXML Documentation on learn.microsoft.com](https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml) - API reference for the Open XML SDK
+
+## Related Awesome Lists
+
+Other curated lists in nearby territory:
+
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The mother of all awesome lists `⭐ 523.2k`
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hostable free software, including many office/collaboration tools `⭐ 329.4k`
+- [awesome-document-understanding](https://github.com/tstanislawek/awesome-document-understanding) - Resources for Document Understanding and DocAI `⭐ 1.5k`
+- [awesome-grid](https://github.com/FancyGrid/awesome-grid) - Curated list of grid/table libraries `⭐ 1.6k`
 
 ## Contributing
 
