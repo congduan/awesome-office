@@ -166,6 +166,7 @@ Other curated lists in nearby territory:
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The mother of all awesome lists `⭐ 523.2k`
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Self-hostable free software, including many office/collaboration tools `⭐ 329.4k`
 - [awesome-document-understanding](https://github.com/tstanislawek/awesome-document-understanding) - Resources for Document Understanding and DocAI `⭐ 1.5k`
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The curated list of MCP servers (has an office/document section) `⭐ 96.8k`
 - [awesome-grid](https://github.com/FancyGrid/awesome-grid) - Curated list of grid/table libraries `⭐ 1.6k`
 
 ## AI Agent Skills & MCP Servers
@@ -180,10 +181,8 @@ Reusable skill packages that teach agents how to handle office document formats:
 
 ### MCP Servers
 
-Model Context Protocol servers for office document manipulation:
+Model Context Protocol servers that create and edit real Office files:
 
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference servers `⭐ 91.5k`
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - The curated list of MCP servers (see its Office/document section) `⭐ 96.8k`
 - [excel-mcp-server (haris-musa)](https://github.com/haris-musa/excel-mcp-server) - Let AI agents create and edit Excel files with formulas, formatting and charts `⭐ 4.3k`
 - [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) - MCP server for creating, reading and manipulating Word documents `⭐ 2.1k`
 - [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) - MCP server for PowerPoint creation and manipulation `⭐ 1.9k`
