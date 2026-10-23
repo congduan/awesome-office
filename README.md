@@ -15,7 +15,7 @@ In the AI era, more individuals and organizations are building their own office 
   - [Java](#java)
   - [Python](#python)
   - [JavaScript / TypeScript](#javascript--typescript)
-  - [Go / PHP / Rust](#go--php--rust)
+  - [Go / PHP / Rust / C & Others](#go--php--rust--c--others)
 - [Document Conversion & Processing](#document-conversion--processing)
 - [AI Document Intelligence](#ai-document-intelligence)
 - [Legacy / Office 2003 Era Formats](#legacy--office-2003-era-formats)
@@ -76,6 +76,8 @@ The Java ecosystem for Microsoft documents.
 
 - [docx4j](https://github.com/plutext/docx4j) - JAXB-based Java library for Word docx, Powerpoint pptx, and Excel xlsx files `⭐ 2.4k`
 - [poi](https://github.com/apache/poi) - Mirror of Apache POI gitbox. The Java API for Microsoft Documents. `⭐ 2.3k`
+- [easyexcel](https://github.com/alibaba/easyexcel) - Alibaba's fast Java Excel tool that avoids memory overflow on large files (archived, succeeded by FastExcel) `⭐ 33.6k`
+- [FastExcel (fesod)](https://github.com/apache/fesod) - Apache FastExcel (formerly EasyExcel): process large spreadsheets without memory concerns `⭐ 6.3k`
 - [fastexcel](https://github.com/dhatim/fastexcel) - Generate and read big Excel files quickly `⭐ 912`
 
 ### Python
@@ -102,16 +104,23 @@ Generate, parse, and render Office documents in the browser or Node.js.
 - [docxtemplater](https://github.com/open-xml-templating/docxtemplater) - Generate docx/pptx/xlsx from templates in Node.js or the browser `⭐ 3.6k`
 - [docxjs](https://github.com/VolodymyrBaydalka/docxjs) - Docx rendering library `⭐ 2.1k`
 
-### Go / PHP / Rust
+### Go / PHP / Rust / C & Others
 
-Office format libraries across Go, PHP, and Rust.
+Office format libraries across Go, PHP, Rust, C/C++, Swift, and more.
 
 - [excelize](https://github.com/qax-os/excelize) - Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets `⭐ 21.0k`
 - [phpspreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) - A pure PHP library for reading and writing spreadsheet files `⭐ 14.0k`
 - [phpword](https://github.com/PHPOffice/PHPWord) - A pure PHP library for reading and writing word processing documents `⭐ 7.6k`
 - [xlsx](https://github.com/tealeg/xlsx) - Go library for reading and writing XLSX files. `⭐ 6.0k`
 - [calamine](https://github.com/tafia/calamine) - A pure Rust Excel (xlsx/xls) file reader: rust on metal sheets `⭐ 2.5k`
+- [hucre](https://github.com/productdevbook/hucre) - Zero-dependency pure-Rust spreadsheet engine, read & write XLSX `⭐ 2.2k`
+- [QXlsx](https://github.com/QtExcel/QXlsx) - Excel .xlsx reader/writer for Qt/C++ (descendant of QtXlsxWriter) `⭐ 1.5k`
+- [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter) - C library for writing Excel XLSX files `⭐ 1.8k`
+- [CoreXLSX](https://github.com/CoreOffice/CoreXLSX) - Excel XLSX format parser in pure Swift `⭐ 906`
+- [libxls](https://github.com/libxls/libxls) - Read legacy binary Excel (.xls) files from C/C++ `⭐ 539`
 - [phppresentation](https://github.com/PHPOffice/PHPPresentation) - A pure PHP library for reading and writing presentations documents `⭐ 1.4k`
+- [spout](https://github.com/box/spout) - Fast, scalable PHP reader/writer for XLSX and CSV (archived) `⭐ 4.2k`
+- [php-ext-xlswriter](https://github.com/viest/php-ext-xlswriter) - PHP C extension for fast XLSX reading and writing `⭐ 2.4k`
 
 ### Document Conversion & Processing
 
@@ -142,6 +151,7 @@ Tools focused on the pre-OOXML binary formats (.doc, .xls, .ppt, OLE2 Compound F
 - [openmcdf](https://github.com/ironfede/openmcdf) - Microsoft Compound File Binary (COM Structured Storage) .NET library `⭐ 392`
 - [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader) - Lightweight and fast C# reader for legacy .xls and .xlsx files `⭐ 4.4k`
 - [xlrd](https://github.com/python-excel/xlrd) - Library for developers to extract data from legacy Excel .xls files `⭐ 2.2k`
+- [libxls](https://github.com/libxls/libxls) - C/C++ library for reading legacy binary Excel (.xls) files `⭐ 539`
 - [jitOffice/doc2docx](https://github.com/jitOffice/doc2docx) - Convert Word 97-2003 binary .doc to OOXML .docx with zero host dependencies
 - [catdoc](https://github.com/petewarden/catdoc) - Classic command-line converter for extracting text from MS Word .doc files `⭐ 89`
 - [antiword](https://github.com/grobian/antiword) - Free MS Word 97-2003 .doc reader, a Unix classic since 1998 `⭐ 82`
