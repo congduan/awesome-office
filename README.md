@@ -40,6 +40,7 @@ Full-blown office suites, online editors, and collaborative workspaces.
 - [docx-editor](https://github.com/superdoc/docx-editor) - SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK) `⭐ 1.1k`
 - [ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) - Ely Office: offline-first desktop apps in Rust and GPUI `⭐ 872`
 - [edentext](https://github.com/stffnb/edentext) - Web-based word processor for docx files, private by design `⭐ 550`
+- [ElixirOffice](https://github.com/leag1234/ElixirOffice) - Office suite that feels like Microsoft Office (ribbon, shortcuts, layout fidelity); edits `.docx`/`.xlsx`/`.pptx` and OpenDocument via a WebAssembly converter, desktop + self-hosted, derived from ONLYOFFICE `⭐ 475`
 - [richdocuments](https://github.com/nextcloud/richdocuments) - 📑 Collabora Online for Nextcloud `⭐ 459`
 - [HermesOffice](https://github.com/criptogus/HermesOffice) - Free, open-source AI Office suite (Word, Excel, PowerPoint) `⭐ 616`
 - [jitword-sdk](https://github.com/jitOffice/jitword-sdk) - AI Word协同文档SDK，以文档编辑为核心，支持表格和思维导图协同编辑 `⭐ 219`
